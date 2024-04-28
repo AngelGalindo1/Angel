@@ -29,4 +29,61 @@ p {
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
+        
+
 }
+.texto{
+
+    text-align: center;
+    color: cornflowerblue;
+   
+}
+
+.texto{
+    font-size: 1rem;
+
+}
+.texto1{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+   
+
+}
+.texto1{
+    list-style: none;
+    text-align: center;
+}
+.texto1 li{
+
+    display: inline;
+    padding: 2rem;
+
+}
+.texto1 a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.titulo{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+
+}
+.titulo{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    list-style: none;
+}
+
+
