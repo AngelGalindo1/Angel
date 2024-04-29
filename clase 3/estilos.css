@@ -54,6 +54,7 @@ p {
 .texto1{
     list-style: none;
     text-align: center;
+    background-color: cornflowerblue
 }
 .texto1 li{
 
