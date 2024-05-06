@@ -1,0 +1,91 @@
+.rojo{ 
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.azul{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+
+.rosa{
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+}
+
+.naranja{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+}
+
+.contenedorPadre{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.encabezado{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    background-color: #fff6f6;
+    padding: 25px 0;
+}
+.encabezado li{
+    display: inline;
+    padding: 2rem;
+}
+.encabezado a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size: 1rem; 
+
+}
+
+.grid_container{
+   display: grid;
+   background-color: aquamarine;
+   grid-template-columns: 300px 300px;
+   grid-template-rows: repeat(2,100px);
+   gap: 4rem;
+   
+   
+
+
+}
+.Producto{
+    padding: 1rem;
+    text-align: center;
+    border: 3px solid #211f1f;
+    
+}
+  
+.grilla{
+
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav producto publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+
+
+}
+
+.header{
+    background-color: rgb(231, 165, 65);
+    grid-area: "header";
+}
+.footer{
+    background-color: rgb(201, 61, 61);
+    grid-area: "footer";
+
